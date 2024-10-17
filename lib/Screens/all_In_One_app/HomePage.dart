@@ -1,43 +1,28 @@
-
 import 'package:flutter/material.dart';
 
 import '../../utils/List.dart';
 import 'WebView.dart';
-
-
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: SafeArea(
-        child: Column(
+    return SafeArea(
+      child: Scaffold(
+        body: Column(
           children: [
             SizedBox(
-              height: 30,
-            ),
-            Container(
-                height: 300,
-                width: 400,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    fit: BoxFit.fill,
-                    image: AssetImage('Assets/Image/book.gif'),
-                  ),
-                )),
-            SizedBox(
-              height: 10,
+              height: 15,
             ),
             Text(
-              'Book Flights Tickets Now',
+              'Your AIM Cars',
               style: TextStyle(fontSize: 24, color: Colors.red),
             ),
             Expanded(
               child: GridView.builder(
                 padding: const EdgeInsets.all(10),
-                itemCount: FligthsList.length,
+                itemCount: CarsList.length,
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
                   crossAxisSpacing: 10,
@@ -46,9 +31,9 @@ class HomeScreen extends StatelessWidget {
                 ),
                 itemBuilder: (context, index) => buildGridTile(
                   context,
-                  FligthsList[index]['url'],
-                  FligthsList[index]['name'],
-                  FligthsList[index]['image'],
+                  CarsList[index]['url'],
+                  CarsList[index]['name'],
+                  CarsList[index]['image'],
                 ),
               ),
             ),
@@ -86,15 +71,14 @@ class HomeScreen extends StatelessWidget {
                 height: 60,
                 fit: BoxFit.cover,
               ),
-              // const Gap(10),
-              // Text(
-              //   name,
-              //   textAlign: TextAlign.center,
-              //   style: const TextStyle(
-              //     fontWeight: FontWeight.bold,
-              //     fontSize: 16,
-              //   ),
-              // ),
+              Text(
+                name,
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16,
+                ),
+              ),
             ],
           ),
         ),

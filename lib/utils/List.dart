@@ -1,43 +1,42 @@
-List FligthsList=[
+List CarsList = [
   {
-    'name':'IndiGo',
-    'image':'Assets/Image/indigo.png',
-    'url':'https://www.goindigo.in/flight-booking.html?cid=Display%7CAffiliate%7CLF%7CLA11%7C%7B57022%7D&gad_source=1',
+    'name': 'Mercedes',
+    'image': 'assets/images/c1.jpeg',
+    'url': 'https://www.mercedes-benz.com/en/',
   },
   {
-    'name':'Emirates',
-    'image':'Assets/Image/emirates.png',
-    'url':'https://www.emirates.com/in/english/book/',
+    'name': 'Lamborghini',
+    'image': 'assets/images/c2.jpg',
+    'url': 'https://www.lamborghini.com/en-en',
   },
   {
-    'name':'Akasa',
-    'image':'Assets/Image/akasa.png',
-    'url':'https://www.akasaair.com/offers/sign-up-and-fly-more-akasa-discount-code?utm_source=google&utm_medium=cpc&utm_campaign=Akasa-Air-Performance-Dom-Google-Search-Brand-Core-Exact-IP&utm_content=General&utm_term=akasa&gad_source=1&gclid=Cj0KCQjwgrO4BhC2ARIsAKQ7zUnJvoI72rSOXSUb5tOyw-vlapVW_410Xp2HFwBpJglpGoVVro9WWA8aAvZGEALw_wcB',
+    'name': 'Maserati',
+    'image': 'assets/images/c3.png',
+    'url': 'https://www.maserati.com/in/en',
   },
   {
-    'name':'Delta',
-    'image':'Assets/Image/delta.png',
-    'url':'https://www.delta.com/flightsearch/book-a-flight',
+    'name': 'Porsche',
+    'image': 'assets/images/c4.jpeg',
+    'url': 'https://www.porsche.com/middle-east/_india_/',
   },
   {
-    'name':'AirIndia',
-    'image':'Assets/Image/airindia.png',
-    'url':'https://www.airindia.com/en-in/book-flights/',
+    'name': 'Ferrari',
+    'image': 'assets/images/c5.png',
+    'url': 'https://www.ferrari.com/en-IN',
   },
   {
-    'name':'Indian AirLines',
-    'image':'Assets/Image/indainairlines.png',
-    'url':'https://www.airindia.com/',
+    'name': 'Tata',
+    'image': 'assets/images/c6.png',
+    'url': 'https://www.tatamotors.com/',
   },
   {
-    'name':' Spacejet',
-    'image':'Assets/Image/spacejet.png',
-    'url':'https://www.spicejet.com/',
+    'name': ' Bentley',
+    'image': 'assets/images/c7.png',
+    'url': 'https://www.bentleymotors.com/en.html',
   },
   {
-    'name':'Vistara',
-    'image':'Assets/Image/vistara.png',
-    'url':'https://www.airvistara.com/in/en',
+    'name': 'Bugatti',
+    'image': 'assets/images/c8.png',
+    'url': 'https://www.bugatti.com/',
   },
-
 ];
